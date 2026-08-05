@@ -572,7 +572,7 @@ impl<'a> Cache<'a> {
                 write!(
                     stdout,
                     "{}",
-                    &page_name[start..start + part.len()].green().bold()
+                    page_name[start..start + part.len()].green().bold()
                 )?;
                 last_end = start + part.len();
             }
